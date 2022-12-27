@@ -15,4 +15,7 @@
 <h3> Database used is <b> MySQL</b></h3>
 
 <a href="https://youtu.be/7FARcBcJbWU"><h2>Click to see the demo</h2></a>
+OR
+
+<u>https://youtu.be/7FARcBcJbWU</u>
 
