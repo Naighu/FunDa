@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-color: #f0ebf8;
+    
+}
+
+
+.form-area {
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 180px;
+    background-color: #f0ebf8;
+    scroll-padding-bottom: 100px;
+}
+.form-title-card {
+    border-top: 8px solid rgb(103, 58, 183) ;
+}
+.form-card {
+    margin:20px auto;
+    width: 60rem;
+    min-height: 160px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 32px;
+    color: black;
+    box-shadow: none;
+}
+
+.form-description{
+    margin-bottom: 20px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none; 
+}
+
+
+.form-qns{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-textfield {
+    margin-top: 20px;
+    border:none;
+    line-height: 40px;
+    border-bottom: 1px solid #202124;
+}
+
+
+.submit {
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    width: 60rem;
+    margin: auto;
+}

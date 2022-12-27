@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    background-color: #f0ebf8 !important;
+}
+
+
+
+
+.navbar-style {
+   width: 100vw;
+   background-color:white;
+   box-shadow: 0 1px 6px #222222;
+}
+
+.logo {
+  height: 48px;
+  padding: 2px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.form-area {
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0ebf8;
+}
+
+.form-card {
+    margin: auto;
+    width: 60rem;
+    min-height: 160px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.form-title {
+    border-top: 8px solid rgb(103, 58, 183) ;
+}
+
+.bottom-nav{
+
+    background-color: rgb(103, 58, 183);
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    position: fixed;
+    width: 60rem;
+    bottom: 5px;
+    left: 50%;
+    margin:auto;
+    display: flex; 
+    justify-content: space-around; 
+    
+
+    
+}
+button.bottom-icon {
+   border: none;
+   background: transparent;
+   margin-right: 50px;
+}
+.form-control.form-textfield{
+    margin-bottom: 20px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.form-control.form-textfield-description{
+    margin-bottom: 20px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none; 
+}
+.flex-center{
+    display:flex;
+    justify-content: start;
+    align-items:center;
+}
+.form-card {
+    margin-bottom: 20px;
+    position:relative;
+}
+
+.form-control.form-textfield-title {
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 32px;
+    color: black;
+    box-shadow: none;
+}
+
+.form-card:hover{
+    border-left: 5px solid rgb(147, 114, 205) ;
+}
+
+.form-control.form-textfield-title::placeholder {
+    font-size: 32px;
+    color: black;
+}
+.delete {
+    position:absolute;
+    right: 5px;
+    bottom: 6px;
+    border: none;
+    width:45px; 
+    background-color:white;
+}
+
+
+.form-control.form-dropdown {
+    width: 150px;
+}
+
+.bottom-nav button img {
+    filter: invert(84%) sepia(77%) saturate(406%) hue-rotate(201deg) brightness(119%) contrast(108%);
+
+}

@@ -1,0 +1,114 @@
+
+
+
+
+
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+}
+
+.logo {
+  height: 48px;
+  padding: 2px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+#navbarNav {
+  display: block !important;
+}
+.tool-navbar .nav-item .nav-link {
+  font-size: 15px !important;
+  color: black !important;
+  padding: 0;
+  padding-left: 4px;
+  padding-right: 16px !important;
+  text-align: start !important;
+}
+.underline {
+  margin-bottom: 1px;
+}
+
+#gray-strip{
+  height: 270px;
+  width: 80vw;
+  display: flex;
+  background:  #f3f3f4;
+  margin: 20px auto;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+#inside-strip{
+  display: flex;
+  flex-direction: column;
+}
+#white-rect{
+  background: white;
+  width: 200px;
+  height: 140px;
+  margin: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(216, 216, 216) ;
+  border-radius: 3px;
+}
+.heading{
+  display: flex;
+  align-self: baseline;
+  color:rgb(192, 190, 190);
+  width:auto;
+  height: 100;
+  margin-top: 7px;
+}
+.sub-heading{
+  color: rgb(87, 82, 82);
+  font-size: 20px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 80vw;
+  display: flex;
+  
+}
+.sub-heading1{
+  color: rgb(87, 82, 82);
+  font-size: 20px;
+  margin: 20px;
+  
+  
+}
+.mini-heading{
+  color: rgb(87, 82, 82);
+  font-size: 17px;
+  margin: 10px;
+}
+.list-forms{
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.card-img
+{
+  height: 60%;
+}
+.form-card {
+  padding-bottom: 50px;
+}
+
+
+.delete {
+  display: none;
+  position:absolute;
+  right: 5px;
+  bottom: 6px;
+  border: none;
+  width:45px; 
+  background-color:white;
+}

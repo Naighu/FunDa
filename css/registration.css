@@ -1,0 +1,108 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.header {
+  height: 15vh;
+}
+
+
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+}
+
+.logo {
+  height: 48px;
+  padding: 2px;
+}
+img.app-name {
+  height: 38px;
+}
+.img-responsive {
+  width: 90%;
+  height: 60vh;
+}
+.left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-text {
+  margin-left: 30px;
+  font-size: 4vw;
+  color: #202124;
+  font-weight: 500;
+}
+.small-text {
+  font-size: 20px;
+  margin-left: 30px;
+  color: #5f6368;
+}
+button.btn {
+  margin: 30px 10px;
+  width: 300px;
+  margin-left: 30px;
+  height: 60px;
+  padding-top: 8px;
+  border-radius: 20px;
+  background-color: #1A73E8;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.reg-form {
+  border-radius: 10px;
+  width: 30vw;
+  height: 70vh;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+}
+.form-outline {
+  text-align: start;
+}
+input {
+  outline: none;
+  border:none;
+}
+.input100 {
+  
+  color: #555555;
+  line-height: 1.2;
+ 
+  width: 25vw;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  margin-bottom: 37px;
+  border-bottom: 2px solid #adadad;
+}
+
+
+.btn {
+  width: 25vw;
+  height: 50px;
+  color: white !important;
+  font-size: 20px !important;
+  background-color: #673AB7 !important;
+  border: none !important;
+}
+.app-spinner{
+  padding-left: 50%;
+}
+
+button.btn-second {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: 2px solid #673AB7 !important;
+}
+button.btn-second:hover {
+  border: 2px solid #673AB7;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
+}
